@@ -6,10 +6,6 @@ use LWP::Simple;
 $content = get("http://icanhazip.com");
 
 	
-print "$content\n\n";
-
-<>;
-
-print "\nFollow me on Twitter : matteyeux\n";
+print "Your public IP address is $content\n\n";
 
 <>;
